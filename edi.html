@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Code Editor</title>
+  <link rel="stylesheet" href="edi.css">
+</head>
+<body>
+  <div class="code-editor" id="codeEditor">
+    <textarea id="codeTextarea" placeholder="Write your code here..."></textarea>
+    <button onclick="copyCode()">Copy</button>
+    <button onclick="saveCode()">Save</button>
+    <button onclick="toggleLock()" class="code-editor__lock">Lock/Unlock</button>
+  </div>
+  <script src="edi.js"></script>
+</body>
+</html>
